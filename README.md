@@ -13,33 +13,9 @@ Bem-vindo ao meu repositório JavaCodeLab! Este é um repositório que contém u
 
 A lista "Conceitos Iniciais de POO" contém exercícios relacionados aos conceitos fundamentais de Programação Orientada a Objetos. Esses exercícios visam fortalecer seu entendimento dos princípios de encapsulamento, herança, polimorfismo e muito mais.
 
-- [Lista 1](conceitos-iniciais-poo/Lista1.java)
+- Gerenciador de Estoque (conceitos-iniciais-poo/controle_de_estoque)
 - [Lista 2](conceitos-iniciais-poo/Lista2.java)
 - [Lista 3](conceitos-iniciais-poo/Lista3.java)
-
-## Manipulação de Arquivos
-
-A lista "Manipulação de Arquivos" contém exercícios que envolvem a leitura, escrita e manipulação de arquivos em Java. Você terá a oportunidade de praticar a abertura de arquivos, leitura de dados, escrita de dados e muito mais.
-
-- [Lista 1](manipulacao-de-arquivo/Lista1.java)
-- [Lista 2](manipulacao-de-arquivo/Lista2.java)
-- [Lista 3](manipulacao-de-arquivo/Lista3.java)
-
-## Estruturas de Dados
-
-A lista "Estruturas de Dados" contém exercícios relacionados a diferentes estruturas de dados em Java. Você poderá praticar a implementação de listas, pilhas, filas, árvores e outras estruturas de dados comuns.
-
-- [Lista 1](estruturas-de-dados/Lista1.java)
-- [Lista 2](estruturas-de-dados/Lista2.java)
-- [Lista 3](estruturas-de-dados/Lista3.java)
-
-## Exemplos Avançados
-
-A lista "Exemplos Avançados" contém exercícios mais desafiadores que abrangem tópicos avançados em Java. Esses exercícios são projetados para testar suas habilidades e expandir seu conhecimento de programação em Java.
-
-- [Lista 1](exemplos-avancados/Lista1.java)
-- [Lista 2](exemplos-avancados/Lista2.java)
-- [Lista 3](exemplos-avancados/Lista3.java)
 
 ## Contribuição
 
