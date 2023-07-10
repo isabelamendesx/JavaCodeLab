@@ -5,15 +5,12 @@ Bem-vindo ao meu repositório JavaCodeLab! Este é um repositório que contém u
 ## Tópicos disponíveis
 
 - [Conceitos Iniciais de POO](#conceitos-iniciais-de-poo)
-- [Manipulação de Arquivos](#manipulação-de-arquivos)
-- [Estruturas de Dados](#estruturas-de-dados)
-- [Exemplos Avançados](#exemplos-avançados)
 
 ## Conceitos Iniciais de POO
 
 A lista "Conceitos Iniciais de POO" contém exercícios relacionados aos conceitos fundamentais de Programação Orientada a Objetos. Esses exercícios visam fortalecer seu entendimento dos princípios de encapsulamento, herança, polimorfismo e muito mais.
 
-- Gerenciador de Estoque (conceitos-iniciais-poo/controle_de_estoque)
+- [Gerenciador de Estoque](conceitos-iniciais-poo/controle_de_estoque)
 - [Lista 2](conceitos-iniciais-poo/Lista2.java)
 - [Lista 3](conceitos-iniciais-poo/Lista3.java)
 
