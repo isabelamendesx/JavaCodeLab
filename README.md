@@ -1,6 +1,10 @@
 # JavaCodeLab
 
-Bem-vindo ao meu repositório JavaCodeLab! Este é um repositório que contém uma coleção de listas de exercícios de diversos tópicos em Java. Cada lista foi projetada para praticar e aprimorar suas habilidades de programação em Java.
+Bem-vindo ao meu repositório JavaCodeLab! 
+
+Este repositório contém minha jornada na linguagem Java. Aqui, você encontrará uma coleção de listas de exercícios que realizei cuidadosamente enquanto estudava o vasto universo do Java. 
+
+Espero que esses exercícios possam guiar você em uma jornada de aprendizado, crescimento e transformação assim como me guiaram. 
 
 ## Tópicos disponíveis
 
@@ -8,11 +12,13 @@ Bem-vindo ao meu repositório JavaCodeLab! Este é um repositório que contém u
 
 ## Conceitos Iniciais de POO
 
-A lista "Conceitos Iniciais de POO" contém exercícios relacionados aos conceitos fundamentais de Programação Orientada a Objetos. Esses exercícios visam fortalecer seu entendimento dos princípios de encapsulamento, herança, polimorfismo e muito mais.
+A lista "Conceitos Iniciais de POO" contém exercícios relacionados aos conceitos fundamentais de Programação Orientada a Objetos. Esses exercícios visaram fortalecer o entendimento dos princípios iniciais de POO, como classes, atributos, membros estáticos e a classe Object.
 
 - [Gerenciador de Estoque](conceitos_iniciais_poo/controle_de_estoque)
-- [Lista 2](conceitos-iniciais-poo/Lista2.java)
-- [Lista 3](conceitos-iniciais-poo/Lista3.java)
+- [Calculadora Dólar -> Real](conceitos_iniciais_poo/dollar_calculator)
+- [Salário líquido de um funcionário](conceitos_iniciais_poo/employee)
+- [Propriedades de um retângulo](conceitos_iniciais_poo/retangulox)
+- [Aluno aprovado ou reprovado?](conceitos_iniciais_poo/student)
 
 ## Contribuição
 
