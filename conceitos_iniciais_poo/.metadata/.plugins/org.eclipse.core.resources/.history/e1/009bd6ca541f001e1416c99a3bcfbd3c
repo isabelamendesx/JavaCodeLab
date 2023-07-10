@@ -1,0 +1,9 @@
+package util;
+
+public class CurrencyConverter {
+	
+	public static double amountCalculator(double price, double quantity) {
+		return price * quantity + (price * quantity) * 0.06; 
+	}
+
+}

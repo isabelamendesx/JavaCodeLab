@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+/home/isa/POO_Java/.metadata/.plugins/org.eclipse.jdt.core
+3978720908.index
+655075955.index
+2214392596.index
+1865797976.index
+1866194910.index
