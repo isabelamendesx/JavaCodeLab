@@ -28,26 +28,46 @@ A lista "Conceitos Iniciais de POO" contém exercícios relacionados aos conceit
 
 
 ### 2. [Calculadora Dólar -> Real](conceitos_iniciais_poo/dollar_calculator)
-<table>  
+<table>
   <tr>
     <td width="50%">
-      <img src="imgs/dolar.jpeg" alt="Imagem 1" width="450px">
+      <img src="imgs/dolar.jpeg" alt="Imagem 1" width="900px">
     </td>
+    <td width="50%">&nbsp;</td>
+  </tr>
+</table>
+
+### 3. [Propriedades de um retângulo](conceitos_iniciais_poo/retangulox)
+<table>
+  <tr>
     <td width="50%">
-      <img src="imgs/estoque1.jpeg" alt="Imagem 2" width="450px">
+      <img src="imgs/retangulo.jpeg" alt="Imagem 1" width="900px">
     </td>
+    <td width="50%">&nbsp;</td>
+  </tr>
+</table>
+
+### 4. [Salário líquido de um funcionário](conceitos_iniciais_poo/employee)
+<table>
+  <tr>
+    <td width="50%">
+      <img src="imgs/funcionario.jpeg" alt="Imagem 1" width="900px">
+    </td>
+    <td width="50%">&nbsp;</td>
   </tr>
 </table>
 
 
 
-
-
-
-
-- [Salário líquido de um funcionário](conceitos_iniciais_poo/employee)
-- [Propriedades de um retângulo](conceitos_iniciais_poo/retangulox)
-- [Aluno aprovado ou reprovado?](conceitos_iniciais_poo/student)
+### 5. [Aluno aprovado ou reprovado?](conceitos_iniciais_poo/student)
+<table>
+  <tr>
+    <td width="50%">
+      <img src="imgs/aluno.jpeg" alt="Imagem 1" width="900px">
+    </td>
+    <td width="50%">&nbsp;</td>
+  </tr>
+</table>
 
 ## Contribuição
 
