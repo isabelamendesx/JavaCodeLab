@@ -140,7 +140,7 @@ Este programa permite ao usuário inserir os dados de um estudante, como nome e 
 
 ## Contribuição
 
-Sinta-se à vontade para contribuir com este repositório! Se você tiver exercícios adicionais, melhorias ou correções, ficaremos felizes em receber suas contribuições. Basta fazer um fork deste repositório, criar uma branch para suas alterações e enviar um pull request.
+Sinta-se à vontade para contribuir com este repositório! Se você tiver exercícios adicionais, melhorias ou correções, ficarei em receber suas contribuições. Basta fazer um fork deste repositório, criar uma branch para suas alterações e enviar um pull request.
 
-Esperamos que você aproveite as listas de exercícios e que elas sejam úteis para aprimorar suas habilidades em Java!
+Espero que você aproveite as listas de exercícios e que elas sejam úteis para aprimorar suas habilidades em Java!
 
