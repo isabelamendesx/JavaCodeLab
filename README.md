@@ -1,4 +1,5 @@
-# JavaCodeLab
+# <img src="/imgs/java.png" alt="Logo do Java" width="160" height="100">JavaCodeLab 
+
 
 Bem-vindo ao meu repositório JavaCodeLab! 
 
