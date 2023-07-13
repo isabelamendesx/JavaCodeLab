@@ -12,7 +12,8 @@ Espero que esses exercícios possam guiar você em uma jornada de aprendizado, c
 - [Conceitos Iniciais de POO](#conceitos-iniciais-de-poo)
 - [Arrays e Listas](#arrays-e-listas)
 
-## Conceitos Iniciais de POO
+## Conceitos Iniciais de POO 
+### [clique aqui para ver os exercícios](/conceitos_iniciais_poo/README.md)
 
 A lista "Conceitos Iniciais de POO" contém exercícios relacionados aos conceitos fundamentais de Programação Orientada a Objetos. Esses exercícios visaram fortalecer o entendimento dos princípios iniciais de POO, como classes, atributos, membros estáticos e a classe Object.
 
