@@ -10,6 +10,7 @@ Espero que esses exercícios possam guiar você em uma jornada de aprendizado, c
 ## Tópicos disponíveis
 
 - [Conceitos Iniciais de POO](#conceitos-iniciais-de-poo)
+- [Arrays e Listas](#arrays-e-listas)
 
 ## Conceitos Iniciais de POO
 
@@ -145,3 +146,4 @@ Sinta-se à vontade para contribuir com este repositório! Se você tiver exerc�
 
 Espero que você aproveite as listas de exercícios e que elas sejam úteis para aprimorar suas habilidades em Java!
 
+## Arrays e Listas
