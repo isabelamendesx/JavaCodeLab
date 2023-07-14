@@ -16,7 +16,7 @@
 Um exemplo básico de **gerenciamento de produto em um estoque**. Ele permite ao usuário informar os dados de um produto, como nome, preço e quantidade em estoque, e realizar operações de adição e remoção de produtos do estoque.
 
 
-## 2. [Calculadora Dólar -> Real](conceitos_iniciais_poo/dollar_calculator)
+## 2. [📈 Calculadora Dólar -> Real](/dollar_calculator)
 <table>
   <tr>
     <td width="50%">
@@ -30,7 +30,7 @@ Esse programa é um conversor de moeda simples. Ele solicita ao usuário o preç
 
 Note que a classe CurrencyConverter contém um atributo estático IOF que armazena a taxa de imposto. O método amountCalculator() realiza o cálculo do valor em reais, multiplicando o preço do dólar pela quantidade desejada e adicionando o valor do imposto.
 
-## 3. [Propriedades de um retângulo](conceitos_iniciais_poo/retangulox)
+## 3. [📐 Propriedades de um retângulo](/retangulox)
 <table>
   <tr>
     <td width="50%">
@@ -44,7 +44,7 @@ Esse programa calcula e exibe informações sobre um retângulo com base nas dim
 
 O programa solicita ao usuário a largura e a altura do retângulo. Em seguida, utiliza a classe Rectangle para realizar os cálculos da área, perímetro e diagonal do retângulo com base nas dimensões informadas.
 
-## 4. [Salário líquido de um funcionário](conceitos_iniciais_poo/employee)
+## 4. [💼  Salário líquido de um funcionário](/employee)
 <table>
   <tr>
     <td width="50%">
@@ -59,7 +59,7 @@ Este programa permite ao usuário inserir os dados de um funcionário, como nome
 O programa também solicita ao usuário um percentual de aumento salarial desejado. Em seguida, utiliza o método increaseSalary() da classe Employee para calcular e aplicar o aumento salarial com base no percentual informado.
 
 
-## 5. [Aluno aprovado ou reprovado?](conceitos_iniciais_poo/student)
+## 5. [🎓 Aluno aprovado ou reprovado?](/student)
 <table>
   <tr>
     <td width="50%">
