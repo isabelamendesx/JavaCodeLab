@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/.metadata" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/abaixo_da_media/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/alturas/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/funcionarios/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/maior_posição/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/mais_velho/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/matrizes/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/media_pares/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/negativos/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/numeros_pares/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/pensionato/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/soma_vetor/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/arrays_listas/soma_vetores/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.mylyn/contexts" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.buildship.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/2" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/32" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/57" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/64" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/68" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/6a" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/6d" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/72" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/7e" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/80" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/87" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/94" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/96" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/98" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/9c" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/9d" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/a" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/a0" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/a5" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/b0" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/c0" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/d2" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/de" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.history/e4" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.projects/bank" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.projects/dollar_calculator/org.eclipse.jdt.apt.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.projects/dollar_calculator/org.eclipse.jdt.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.projects/employee/org.eclipse.jdt.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.projects/retangulox/org.eclipse.jdt.apt.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.projects/retangulox/org.eclipse.jdt.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.core.resources/.projects/student/org.eclipse.jdt.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.emf.common.ui" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.jdt.ui" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.ltk.ui.refactoring" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.m2e.jdt" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.mylyn.context.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.mylyn.github.ui" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.mylyn.tasks.ui" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.oomph.setup.ui" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.pde.api.tools" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.pde.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.tips.ide" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.tm.terminal.view.ui" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.ui.ide" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.userstorage.oauth" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.wst.common.modulecore" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.wst.jsdt.ui" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/.metadata/.plugins/org.eclipse.wst.server.core" />
+      <excludeFolder url="file://$MODULE_DIR$/conceitos_iniciais_poo/bank/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/data_hora/.metadata" />
+      <excludeFolder url="file://$MODULE_DIR$/data_hora/convertendo_datahora/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/data_hora/datahora_texto/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/data_hora/exemplo1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/data_hora/operaçoes_datahora/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/enumeracoes_composicao/contratos/out" />
+      <excludeFolder url="file://$MODULE_DIR$/enumeracoes_composicao/pedido/out" />
+      <excludeFolder url="file://$MODULE_DIR$/enumeracoes_composicao/post/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
