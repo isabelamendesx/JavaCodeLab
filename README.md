@@ -12,6 +12,7 @@ Espero que esses exercícios possam guiar você em uma jornada de aprendizado, c
 - [Conceitos Iniciais de POO](#conceitos-iniciais-de-poo)
 - [Arrays e Listas](#arrays-e-listas)
 - [Data-Hora](#data-hora)
+- [Tratamento de Exceções](#tratamento-de-exceções)
 
 ## Conceitos Iniciais de POO 
 ### [clique aqui para ver os exercícios](/conceitos_iniciais_poo/README.md)
@@ -184,6 +185,163 @@ Esses são apenas alguns dos principais conceitos relacionados à manipulação 
 É importante lembrar de considerar fusos horários, formatos de data e hora específicos, além de lidar com exceções e erros que podem ocorrer durante a manipulação de dados temporais.
 
 Consulte a documentação oficial da API java.time para obter mais detalhes e exemplos de uso: [Documentação oficial da API java.time.](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/time/package-summary.html)
+
+## Tratamento de Exceções
+
+### O que é uma exceção?
+Uma exceção em Java é um evento anormal que ocorre durante a execução de um programa e que interrompe o fluxo normal de execução. As exceções podem ser causadas por diversos motivos, como erros de programação, entrada de dados inválida, problemas de hardware, entre outros. As exceções podem ser de dois tipos:
+
+#### `Exceções Verificadas (Checked Exceptions):`
+
+- As exceções verificadas são exceções que o compilador obriga você a tratar (ou declarar que seu método pode lançá-las usando a cláusula throws).
+- Elas são normalmente usadas para lidar com situações que podem ocorrer durante a execução do programa, mas que podem ser previstas e tratadas de forma adequada.
+- São subclasses da classe Exception que não herdam de RuntimeException. Isso significa que elas são verificadas pelo compilador e exigem tratamento.
+- Exemplos de exceções verificadas incluem IOException, ClassNotFoundException e SQLException.
+- Você precisa usar um bloco try-catch ou declarar explicitamente a exceção no método (usando throws) para lidar com exceções verificadas. Isso garante que o código que lida com essas exceções seja tratado de forma apropriada.
+
+#### `Exceções Não Verificadas (Unchecked Exceptions):`
+
+- As exceções não verificadas são exceções que não exigem tratamento obrigatório pelo compilador. Elas são subclasses de RuntimeException.
+- Geralmente representam erros de programação ou condições inesperadas que podem ocorrer durante a execução do programa.
+- Exemplos de exceções não verificadas incluem NullPointerException, ArrayIndexOutOfBoundsException e ArithmeticException.
+- Como o compilador não obriga o tratamento dessas exceções, é responsabilidade do programador tomar medidas para evitar que elas ocorram, quando possível, ou para capturá-las e tratá-las adequadamente.
+- Apesar de não serem obrigatórias de serem tratadas, ainda é uma boa prática capturar e tratar exceções não verificadas quando você puder prever que elas possam ocorrer, a fim de melhorar a robustez do seu programa.
+
+### Hierarquia de Exceções
+
+Em Java, as exceções são organizadas em uma hierarquia de classes que começa com a classe Throwable. Essa hierarquia é dividida em duas categorias principais: exceções e erros, ambas subclasses de Throwable. Vou explicar essa hierarquia em mais detalhes:
+
+#### `1. Throwable:`
+- É a raiz da hierarquia de exceções em Java.
+- Possui duas subclasses principais: Error e Exception.
+- 
+#### `2. Error:`
+- Representa condições irrecuperáveis que normalmente estão fora do controle do programador.
+- Erros geralmente indicam problemas no ambiente de execução, como falta de recursos ou falhas no sistema.
+- Os erros não são normalmente capturados e tratados pelo programa, pois não se espera que o programa possa se recuperar deles.
+Exemplos de erros incluem OutOfMemoryError e StackOverflowError.
+
+#### `3. Exception:`
+- Representa condições excepcionais que podem ocorrer durante a execução do programa, mas que podem ser previstas e tratadas.
+- As exceções são subdivididas em duas categorias: exceções verificadas (checked exceptions) e exceções não verificadas (unchecked exceptions).
+Exceções Verificadas (Checked Exceptions):
+
+### Bloco Try-Catch
+
+#### `1. Bloco Try`
+Você coloca o código que pode lançar uma exceção dentro de um bloco try. Isso isola esse trecho de código, permitindo que o programa continue sua execução mesmo se uma exceção for lançada.
+
+#### `2. Bloco Catch`
+Em seguida, você pode definir um ou mais blocos catch logo após o bloco try. Cada bloco catch especifica um tipo de exceção que deseja capturar e tratar. Se a exceção especificada ocorrer no bloco try, o código no bloco catch correspondente será executado.
+
+#### `3. Tratamento da Exceção`
+Dentro do bloco catch, você pode adicionar código para lidar com a exceção, seja exibindo uma mensagem de erro, registrando informações relevantes ou tomando medidas específicas para recuperar-se da situação excepcional.
+
+Exemplo de utilização:
+
+```java
+public class ExemploTryCatch {
+
+    public static void main(String[] args) {
+        int numerador = 10;
+        int denominador = 0;
+
+        try {
+            int resultado = numerador / denominador;
+            System.out.println("Resultado: " + resultado);
+        } catch (ArithmeticException e) {
+            System.err.println("Erro de divisão por zero: " + e.getMessage());
+        }
+    }
+}
+
+```
+
+### Bloco Finally
+
+O bloco finally é uma construção fundamental em Java que complementa o bloco try-catch no tratamento de exceções e na gestão de recursos. O bloco finally é usado para definir código que deve ser executado, independentemente de ocorrerem exceções ou não. Ele é útil para garantir que recursos sejam liberados adequadamente, como fechar arquivos, conexões de banco de dados ou sockets, independentemente do resultado da execução do bloco try.
+
+Exemplo de Uso:
+
+```java
+FileReader arquivoLeitura = null;
+try {
+    arquivoLeitura = new FileReader("arquivo.txt");
+    // Código para ler o arquivo
+} catch (IOException e) {
+    // Tratamento de exceções
+} finally {
+    if (arquivoLeitura != null) {
+        try {
+            arquivoLeitura.close();
+        } catch (IOException e) {
+            // Tratamento de exceções durante o fechamento do arquivo
+        }
+    }
+}
+
+```
+### Criando exceções personalizadas 
+
+Exceções personalizadas são exceções que você cria em sua aplicação Java, estendendo as classes de exceção existentes, como Exception ou RuntimeException, para representar erros ou situações específicas dentro do seu código.
+
+#### `Como criar uma exceção personalizada?`
+
+1. Crie uma nova classe que estenda Exception (ou uma de suas subclasses, como RuntimeException) para representar sua exceção personalizada.
+```java
+
+public class MinhaExcecaoPersonalizada extends Exception {
+    public MinhaExcecaoPersonalizada() {
+        super("Esta é uma exceção personalizada.");
+    }
+
+    public MinhaExcecaoPersonalizada(String mensagem) {
+        super(mensagem);
+    }
+}
+```
+- No construtor da sua exceção personalizada, você pode passar uma mensagem de erro personalizada para a classe pai usando super(mensagem).
+- Você também pode adicionar métodos e atributos adicionais à sua exceção personalizada, dependendo das necessidades da sua aplicação.
+
+2. Lance e captura suas Exceções Personalizadas
+Para lançar uma exceção personalizada, você pode simplesmente criar uma instância da sua exceção e lançá-la:
+```java
+if (algumaCondicao) {
+    throw new MinhaExcecaoPersonalizada("Ocorreu um erro específico.");
+}
+```
+
+Para capturar uma exceção personalizada, use um bloco try-catch:
+```java
+try {
+    // Código que pode lançar MinhaExcecaoPersonalizada
+} catch (MinhaExcecaoPersonalizada e) {
+    // Tratar a exceção personalizada
+    System.err.println("Exceção personalizada capturada: " + e.getMessage());
+}
+```
+Criar exceções personalizadas é uma prática comum em Java para tornar seu código mais claro, robusto e adaptado às necessidades da sua aplicação. Isso permite que você represente de forma adequada e semântica as situações excepcionais específicas que podem ocorrer ao longo do desenvolvimento do seu programa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Contribuição 👋
 
