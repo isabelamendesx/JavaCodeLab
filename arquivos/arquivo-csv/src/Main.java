@@ -11,13 +11,25 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
+        //LEITURA DO CAMINHO DO TECLADO
+        System.out.println("Enter file path: ");
+        String sourceFilePath = sc.nextLine();
 
-        // String com o caminho pro arquivo INPUT
-        String inPath = "/home/isa/JavaCodeLab/arquivos/in.csv";
-        String outPath = "/home/isa/JavaCodeLab/arquivos/arquivo-csv/out/summary.csv";
+        // File me permite criar um objeto com um caminho
+        File sourceFile = new File(sourceFilePath);
+        // Parente pega a pasta do arquivo
+        String sourceFolderPath = sourceFile.getParent();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(inPath));
-             BufferedWriter bw = new BufferedWriter(new FileWriter(outPath))){
+        // Criando a pasta OUT para o arquivo de saída
+        boolean success = new File(sourceFolderPath + "/out").mkdir();
+
+        System.out.println("Folder created: " + success);
+
+        // Criando summary.csv
+        String targetFilePath = sourceFolderPath + "/out/summary.csv";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(sourceFilePath));
+             BufferedWriter bw = new BufferedWriter(new FileWriter(targetFilePath))){
 
             String line;
 
@@ -28,7 +40,7 @@ public class Main {
                     double price = Double.parseDouble(parts[1]);
                     int quantity = Integer.parseInt(parts[2].trim());
                     Product product = new Product(name, price, quantity);
-                    bw.write(String.valueOf(product));
+                    bw.write(product.getName() + "," + product.totalPrice());
                     bw.newLine();
                 }
             }

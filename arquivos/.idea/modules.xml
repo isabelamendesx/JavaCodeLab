@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/arquivo-csv/arquivo-csv.iml" filepath="$PROJECT_DIR$/arquivo-csv/arquivo-csv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquivo-csv-2/arquivo-csv-2.iml" filepath="$PROJECT_DIR$/arquivo-csv-2/arquivo-csv-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/arquivos.iml" filepath="$PROJECT_DIR$/.idea/arquivos.iml" />
     </modules>
   </component>
