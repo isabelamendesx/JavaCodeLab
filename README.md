@@ -13,6 +13,7 @@ Espero que esses exercícios possam guiar você em uma jornada de aprendizado, c
 - [Arrays e Listas](#arrays-e-listas)
 - [Data-Hora](#data-hora)
 - [Tratamento de Exceções](#tratamento-de-exceções)
+- [Generics](#generics)
 
 ## Conceitos Iniciais de POO 
 ### [clique aqui para ver os exercícios](/conceitos_iniciais_poo/README.md)
@@ -323,6 +324,33 @@ try {
 Criar exceções personalizadas é uma prática comum em Java para tornar seu código mais claro, robusto e adaptado às necessidades da sua aplicação. Isso permite que você represente de forma adequada e semântica as situações excepcionais específicas que podem ocorrer ao longo do desenvolvimento do seu programa.
 
 
+## Generics
+
+Generics são uma poderosa característica da linguagem de programação Java que permitem escrever código flexível e reutilizável. Eles desempenham um papel fundamental no fornecimento de tipos paramétricos, o que significa que você pode criar classes, interfaces e métodos que operam em tipos especificados em tempo de compilação, em vez de tipos fixos.
+
+### Benefícios dos Generics
+
+- `Segurança de Tipo:` Generics fornecem um mecanismo para garantir que apenas tipos apropriados sejam usados em um contexto particular, o que reduz erros em tempo de execução.
+
+- `Reutilização de Código:` Com generics, você pode criar componentes que funcionam com diferentes tipos de dados, promovendo a reutilização de código.
+
+- `Legibilidade do Código:` O código com generics tende a ser mais legível, pois declara claramente quais tipos de dados são esperados e retornados por uma classe ou método.
+
+### Sintaxe Básica
+
+```java
+public class Caixa<T> {
+    private T valor;
+    
+    public T getValor() {
+        return valor;
+    }
+    
+    public void setValor(T valor) {
+        this.valor = valor;
+    }
+}
+```
 
 
 
