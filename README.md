@@ -375,7 +375,45 @@ public class CaixaGenerica<T extends Number> {
     public T getValor() {
         return valor;
     }
-}```
+}
+```
+
+### Wildcards Types
+
+Os tipos coringa em Java, representados pelo caractere "?" (ponto de interrogação), são uma característica que permite lidar com tipos genéricos de maneira mais flexível e genérica. Aqui estão os principais pontos a serem considerados:
+
+`Finalidade dos Tipos Coringa`: Os tipos coringa são usados quando você deseja trabalhar com tipos genéricos de forma mais aberta, sem especificar um tipo exato. Eles são úteis quando a especificação exata do tipo não é necessária para a operação.
+
+`Sintaxe Básica`: O tipo coringa é representado pelo símbolo "?". Você pode usá-lo em declarações de variáveis, parâmetros de métodos e retornos de métodos genéricos.
+
+`Limitações`: Tipos coringa não permitem adicionar elementos a coleções (como List<?>.add()) para garantir a segurança de tipos. No entanto, você pode ler elementos de coleções com tipos coringa.
+
+`Tipos Coringa Delimitados`: É possível usar tipos coringa delimitados para impor restrições aos tipos que podem ser usados. Por exemplo, <?> é um tipo coringa não restrito, enquanto <? extends Tipo> e <? super Tipo> são tipos coringa restritos a subtipos de "Tipo" e tipos que são superiores a "Tipo", respectivamente.
+
+### Sintaxe básica de um tipo Coringa
+
+No código abaixo, essa lista pode ser de Number ou de qualquer subtipo de Number.
+
+```
+java
+public static double soma(List<? extends Number> lista) {
+    double total = 0;
+    for (Number numero : lista) {
+        total += numero.doubleValue();
+    }
+    return total;
+}
+```
+### Princípio Get-Put (PECS - Producer Extends, Consumer Super)
+
+O princípio Get-Put (também conhecido como PECS) é uma diretriz para usar coringas delimitados em Java. A ideia é que, quando você só está lendo elementos de uma estrutura genérica, deve usar ? extends Tipo (produtor estende) e, quando você está adicionando elementos a essa estrutura, deve usar ? super Tipo (consumidor super). Isso ajuda a garantir a segurança de tipos e a interoperabilidade.
+
+Em resumo, a regra PECS pode ser resumida da seguinte forma:
+
+Use ? extends Tipo quando você está obtendo (lendo) elementos da estrutura genérica.
+Use ? super Tipo quando você está colocando (escrevendo) elementos na estrutura genérica.
+Isso ajuda a evitar erros de tipos em tempo de compilação e a criar código mais robusto e flexível para classes e métodos genéricos.
+
 
 
 
