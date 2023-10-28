@@ -351,6 +351,34 @@ public class Caixa<T> {
     }
 }
 ```
+### Generics Delimitados
+
+Em Java, os generics delimitados são uma característica poderosa que permite aos desenvolvedores impor restrições sobre os tipos que podem ser usados em classes e métodos genéricos. Isso é útil para garantir a segurança de tipos e melhorar a reutilização de código. Aqui estão os conceitos importantes:
+
+`Generics Delimitados`: Ao usar generics delimitados, você pode restringir os tipos que podem ser usados em uma classe ou método genérico. Isso é feito especificando um ou mais tipos delimitadores que os tipos genéricos devem estender ou implementar.
+
+`Extends vs. Super`: Em generics delimitados, você pode usar extends para restringir os tipos a subtipos de um tipo especificado e super para permitir tipos que são superiores a um determinado tipo. Isso oferece flexibilidade na definição de limites.
+
+### Implementação básica de um Generic Delimitado
+
+Neste exemplo, a classe CaixaGenerica aceitará apenas tipos que sejam subtipos de Number. Isso ajuda a garantir que somente números possam ser armazenados na instância da classe.
+
+```
+java
+public class CaixaGenerica<T extends Number> {
+    private T valor;
+
+    public CaixaGenerica(T valor) {
+        this.valor = valor;
+    }
+
+    public T getValor() {
+        return valor;
+    }
+}```
+
+
+
 
 
 
