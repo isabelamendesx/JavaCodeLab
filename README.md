@@ -415,12 +415,26 @@ Use ? super Tipo quando você está colocando (escrevendo) elementos na estrutur
 Isso ajuda a evitar erros de tipos em tempo de compilação e a criar código mais robusto e flexível para classes e métodos genéricos.
 
 
+## Equals x HashCode
+
+Em Java, hashCode() e equals() são dois métodos fundamentais usados para manipular objetos, sendo que equals é mais lento e hashCode mais rápido em termos de compração, especialmente ao lidar com estruturas de dados baseadas em hash, como HashMaps e HashSets. Aqui estão as principais diferenças e funções desses métodos:
+
+### equals():
+
+- O método equals() é usado para comparar o conteúdo de dois objetos quanto à igualdade.
+- Você deve sobrescrever o método equals() em suas classes personalizadas se desejar uma lógica específica de igualdade.
+- O método equals() é frequentemente usado para comparar objetos com base em seus campos internos, retornando true se os campos forem iguais e false caso contrário.
+- Se você sobrescrever o método equals(), é uma boa prática também sobrescrever o método hashCode() para manter a consistência.
 
 
+### hashCode():
 
+- O método hashCode() é usado para obter um valor hash de um objeto, geralmente usado em estruturas de dados hash, como tabelas de dispersão (hash tables).
+- Cada objeto em Java possui um valor hash associado, que é um número inteiro que representa o objeto de forma única.
+- O método hashCode() deve ser implementado para retornar o mesmo valor para objetos que são considerados iguais pelo método equals().
+- Se você não sobrescrever o método hashCode(), os objetos que são considerados iguais pelo método equals() podem ser tratados como diferentes em estruturas de dados baseadas em hash.
 
-
-
+Lembrando, é fundamental que, se você sobrescrever o método equals(), você também sobrescreva o método hashCode() de forma consistente para evitar problemas de desempenho e lógica em estruturas de dados baseadas em hash.
 
 
 
