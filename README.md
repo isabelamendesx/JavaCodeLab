@@ -436,6 +436,60 @@ Em Java, hashCode() e equals() são dois métodos fundamentais usados para manip
 
 Lembrando, é fundamental que, se você sobrescrever o método equals(), você também sobrescreva o método hashCode() de forma consistente para evitar problemas de desempenho e lógica em estruturas de dados baseadas em hash.
 
+## Set
+
+Em Java, um conjunto (Set) é uma estrutura de dados que representa uma coleção de elementos únicos, ou seja, cada elemento pode ocorrer no conjunto no máximo uma vez. Isso o diferencia de outras estruturas de dados, como listas, onde os elementos podem se repetir.
+
+Existem várias implementações de conjuntos em Java, sendo as principais:
+
+`HashSet`: Esta implementação usa uma tabela de dispersão (hash table) para armazenar os elementos. Os elementos não são mantidos em ordem específica, e as operações de inserção, remoção e busca são muito eficientes, com complexidade média O(1).
+
+`LinkedHashSet`: O LinkedHashSet é uma extensão do HashSet que mantém a ordem de inserção dos elementos. Isso significa que os elementos são armazenados na ordem em que foram adicionados.
+
+`TreeSet`: Esta implementação mantém os elementos em ordem natural (ou uma ordem especificada por um comparador) e é baseada em uma estrutura de árvore balanceada (geralmente uma árvore vermelha-preta). Isso torna as operações de inserção, remoção e busca um pouco mais lentas em comparação com o HashSet, com complexidade média O(log n). Para que o Treeset possa ordenar os objetos, é necessário que sua classe tenha uma implementação da interface Comparable.
+
+É importante escolher a implementação certa de conjunto com base nas necessidades do seu programa. Se você precisa de uma coleção rápida para inserção, remoção e busca, o HashSet é uma escolha sólida. Se a ordem de inserção for importante, o LinkedHashSet é a opção adequada. Por fim, se você precisa que os elementos sejam mantidos em ordem natural, o TreeSet é a escolha apropriada, embora seja menos eficiente em termos de tempo de execução.
+
+### Exemplos de implementação
+
+```
+java
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
+import java.util.Set;
+
+public class ExemplosConjuntos {
+
+    public static void main(String[] args) {
+        // Exemplo de HashSet
+        Set<String> hashSet = new HashSet<>();
+        hashSet.add("Maçã");
+        hashSet.add("Banana");
+        hashSet.add("Pera");
+        hashSet.add("Maçã"); // Elemento duplicado, não será adicionado
+        System.out.println("HashSet: " + hashSet);
+
+        // Exemplo de LinkedHashSet
+        Set<String> linkedHashSet = new LinkedHashSet<>();
+        linkedHashSet.add("Gato");
+        linkedHashSet.add("Cachorro");
+        linkedHashSet.add("Pássaro");
+        linkedHashSet.add("Gato"); // Elemento duplicado, não será adicionado
+        System.out.println("LinkedHashSet: " + linkedHashSet);
+
+        // Exemplo de TreeSet
+        Set<String> treeSet = new TreeSet<>();
+        treeSet.add("Laranja");
+        treeSet.add("Maçã");
+        treeSet.add("Abacaxi");
+        treeSet.add("Abacate");
+        treeSet.add("Maçã"); // Elemento duplicado, não será adicionado
+        System.out.println("TreeSet: " + treeSet);
+    }
+}
+```
+
 
 
 
