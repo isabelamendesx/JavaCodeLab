@@ -489,13 +489,41 @@ public class ExemplosConjuntos {
     }
 }
 ```
+## Map
 
+Em Java, um Map é uma interface que representa uma coleção de pares chave-valor, onde cada chave está associada a um único valor. Isso permite a criação de estruturas de dados que mapeiam chaves para valores, o que é extremamente útil para armazenar e recuperar informações de maneira eficiente.
 
+O Java fornece várias implementações da interface Map, sendo as mais comuns:
 
+`HashMap`: É uma implementação baseada em tabelas de dispersão que oferece inserção, exclusão e recuperação de valores em tempo quase constante na maioria dos casos.
 
+`TreeMap`: Implementação baseada em árvore que mantém as chaves em ordem natural (ou com base em um comparador fornecido) e é eficaz para recuperar elementos em uma ordem específica.
 
+`LinkedHashMap`: É uma variação do HashMap que mantém a ordem de inserção das chaves, permitindo iterar pelos elementos na ordem em que foram adicionados.
 
+Aqui estão alguns dos principais métodos fornecidos pela interface Map em Java:
 
+`put(K key, V value):` Adiciona um par chave-valor ao mapa. Se a chave já existir, o valor associado a essa chave será substituído.
+
+`get(Object key):` Recupera o valor associado à chave especificada.
+
+`remove(Object key):` Remove o mapeamento correspondente à chave especificada.
+
+`containsKey(Object key):` Verifica se o mapa contém a chave especificada.
+
+`containsValue(Object value):` Verifica se o mapa contém o valor especificado.
+
+`size():` Retorna o número de pares chave-valor no mapa.
+
+`isEmpty():` Verifica se o mapa está vazio.
+
+`keySet():` Retorna um conjunto contendo todas as chaves no mapa.
+
+`values():` Retorna uma coleção contendo todos os valores no mapa.
+
+`entrySet():` Retorna um conjunto de pares chave-valor (um conjunto de objetos Map.Entry).
+
+Lembre-se de que as implementações específicas do Map podem oferecer métodos adicionais ou se comportar de maneira ligeiramente diferente em relação a desempenho, ordenação ou outras características. Certifique-se de escolher a implementação adequada ao seu caso de uso.
 
 
 
