@@ -525,6 +525,10 @@ Aqui estão alguns dos principais métodos fornecidos pela interface Map em Java
 
 Lembre-se de que as implementações específicas do Map podem oferecer métodos adicionais ou se comportar de maneira ligeiramente diferente em relação a desempenho, ordenação ou outras características. Certifique-se de escolher a implementação adequada ao seu caso de uso.
 
+## Programação Funcional e Expressões Lambda
+
+Expressões lambda em Java são uma característica poderosa introduzida no Java 8 que permitem escrever funções anônimas de forma mais concisa e expressiva. Elas são frequentemente usadas em Java para implementar interfaces funcionais (interfaces que contêm apenas um método abstrato) de uma maneira mais enxuta.
+
 
 
 
